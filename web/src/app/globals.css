@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.number-input {
+  @apply [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none;
+}
+
+.scroll-thumb::before {
+  @apply content-[''] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full min-h-[44px] min-w-[44px];
+}
+
+.chat-mobile {
+  @apply max-md:absolute max-md:w-full max-md:h-screen max-md:bg-purple-900;
+}
