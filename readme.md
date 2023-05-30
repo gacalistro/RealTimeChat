@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/iQAPdcU.jpeg" />
+<img src="https://i.imgur.com/iQAPdcU.jpeg" height="700px" />
 </p>
 
 <h1 align="center">Real Time Chat</h1>
